@@ -172,3 +172,28 @@ const Pantalla = {
 
 //21. Obtener Array Bidimensional:
 const pixeles = Pantalla.pixeles;
+
+//Objeto de ejemplo para los ejercicios 22 y 26
+const Movil = {
+  especificaciones: {
+    marca: "Samsung",
+    almacenamiento: 128,
+    ram: 8,
+  },
+  temperatura: "30º",
+};
+
+//22. Leer especificaciones con corchetes
+const especificaciones = Movil["especificaciones"];
+
+//23. Modificar el número de integrantes
+Grupo.numIntegrantes = 5;
+
+//24. Modificar las dimensiones
+Pantalla.dimensiones = "1920x1080";
+
+//25. Invertir el valor de encendido
+Led.encendido = !Led.encendido;
+
+//26. Modificar la temperatura
+Movil.temperatura = "20º";
