@@ -147,3 +147,28 @@ const O_Error = {
 
 //18. Obtener el código
 const codError = O_Error.codigo;
+
+//Objeto de ejemplo para los ejercicios 19 y 23
+const Grupo = {
+  integrantes: ["Ana", "Luis", "Marta"],
+  numIntegrantes: 3,
+};
+
+//19. Obtener integrantes:
+const integrantes = Grupo.integrantes;
+
+//20. Obtener tinta:
+const nivelesTinta = Impresora.tinta;
+
+//Objeto de ejemplo para los ejercicios 21 y 24
+const Pantalla = {
+  pixeles: [
+    [0, 1, 0],
+    [1, 0, 1],
+    [0, 1, 0],
+  ],
+  dimensiones: "1280x720",
+};
+
+//21. Obtener Array Bidimensional:
+const pixeles = Pantalla.pixeles;
