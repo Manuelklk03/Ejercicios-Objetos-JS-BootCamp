@@ -79,3 +79,71 @@ Concierto.cartelera.push("Black Sabbath");
 
 //11. Cambiar fecha por actual:
 Concierto.fecha = new Date(); //Fecha actual
+
+//Objeto para ejercicios 12 y 20:
+const Impresora = {
+  imprimiendo: null,
+  tinta: {
+    rojo: 80,
+    verde: 60,
+    azul: 90,
+  },
+};
+
+//12. Asignar objeto a imprimiendo:
+Impresora.imprimiendo = {
+  nombreArchivo: "Ejercicio12.pdf",
+  copias: 2,
+  numPaginas: 5,
+};
+
+//13. Crear Noticia:
+const Noticia = {
+  titular: "El titular de la noticia",
+  cuerpo: "El cuerpo de la noticia",
+};
+
+//14. Crear Persona:
+const Persona = {
+  nombre: "Manuel",
+  apellidos: "Casinos Pérez",
+  edad: 23,
+};
+
+//15. Crear Avion:
+const Avion = {
+  numPasajeros: 150,
+  despegar: function () {
+    console.log("despegando");
+  },
+  volar: function () {
+    console.log("llegando al destino");
+  },
+  aterrizar: function () {
+    console.log("aterrizando");
+  },
+};
+
+//16. Crear paquete con un array de objetos:
+const Paquete = {
+  contenido: [
+    { nombre: "objeto1", cantidad: 10 },
+    { nombre: "objeto2", cantidad: 5 },
+    { nombre: "objeto3", cantidad: 17 },
+  ],
+};
+
+//17. Crear Pais:
+const Pais = {
+  numHabitantes: 48000000,
+  continente: "Europa",
+  gentilicio: "español",
+};
+
+// Objeto de ejemplo para el ejercicio 18
+const O_Error = {
+  codigo: 404,
+};
+
+//18. Obtener el código
+const codError = O_Error.codigo;
